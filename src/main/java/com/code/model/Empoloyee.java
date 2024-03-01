@@ -5,8 +5,11 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
+@Getter
+@Setter
 public class Empoloyee {
 	
-	private String id;
+	private String emp_id;
+	private String emp_name;
 
 }
