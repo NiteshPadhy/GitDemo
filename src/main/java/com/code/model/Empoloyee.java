@@ -8,5 +8,6 @@ import lombok.Setter;
 public class Empoloyee {
 	
 	private String id;
+	private String name;
 
 }
